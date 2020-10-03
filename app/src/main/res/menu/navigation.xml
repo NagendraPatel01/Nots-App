@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Home"
+        android:id="@+id/a1"
+        android:icon="@drawable/icon">
+    </item>
+
+    <item android:title="Shop by Category"
+        android:id="@+id/a2"
+        android:icon="@drawable/icon">
+    </item>
+    <item android:title="Today's Deals"
+        android:id="@+id/a3"
+        android:icon="@drawable/icon">
+    </item>
+
+    <item android:title="ankit"
+        android:id="@+id/a4"
+        android:icon="@drawable/icon">
+    </item>
+
+    <item android:title="ankit"
+        android:id="@+id/a5"
+        android:icon="@drawable/icon">
+    </item>
+
+</menu>

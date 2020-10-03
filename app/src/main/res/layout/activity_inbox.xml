@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InboxActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edit1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Title"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:background="@null"
+        android:layout_margin="20dp">
+
+    </EditText>
+
+
+    <EditText
+        android:id="@+id/edit2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nots"
+        android:textSize="20dp"
+        android:textColor="#000"
+      android:background="@null"
+        android:layout_margin="20dp">
+
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="SAVE"
+            android:textColor="#000"
+            android:background="#23FAC4"></Button>
+
+    </LinearLayout>
+
+</LinearLayout>
